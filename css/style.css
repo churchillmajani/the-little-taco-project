@@ -1,13 +1,7 @@
 html {
     font-size: 22px;
 }
-nav{
-    border: 5px #000 double;
-    outline: 5px solid purple;
-    outline-offset: 5px;
-    border-radius: 2rem;
-    background-color: aliceblue;
-}
+
 body {
     min-height: 100vh;
     max-width: 800px;
@@ -15,14 +9,6 @@ body {
     padding: 1rem;
     border-left: 1px solid #333;
     border-right: 1px solid #333;
-    background-color: cyan;
-    }
-    li{
-        color: red;
-    }
-h2, h3{
-    margin-bottom: 1em;
-    color: black;
 }
 
 th, td, caption {
@@ -30,25 +16,4 @@ th, td, caption {
     font-family: 'Courier New', Courier, monospace;
     border-collapse: separate;
     padding: 0.5rem;
-}
-
-h1{ 
-    border: 5px double #e41515;
-    border-radius: 2rem;
-    text-align: center;
-    background-color: yellow;
-
-    
-}
-.header__ul1 {
-    list-style-type: none;
-    display: flex;
-    justify-content: space-evenly;
-    gap: 1rem;
-}
-
-.reign__h2{
- background-color: forestgreen;
- position: absolute;
- left: 300px;
 }
